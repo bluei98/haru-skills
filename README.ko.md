@@ -35,6 +35,20 @@ Claude Code 에서 아래 두 줄이면 설치 끝.
 
 ---
 
+## 업데이트
+
+마켓플레이스나 플러그인이 갱신되었을 때, Claude Code 안에서 최신 내용을 받아오세요.
+
+```bash
+# 1. 마켓플레이스 카탈로그 새로고침
+/plugin marketplace update haru-skills
+
+# 2. 설치된 플러그인을 다시 로드해서 변경사항 반영
+/reload-plugins
+```
+
+---
+
 ## 포함된 플러그인
 
 <table>
@@ -48,7 +62,7 @@ Claude Code 에서 아래 두 줄이면 설치 끝.
 </thead>
 <tbody>
 <tr>
-<td><a href="./plugins/domain-search"><code>domain-search</code></a></td>
+<td><code>domain-search</code></td>
 <td>브랜드 네이밍 + whois 기반 도메인 가용성 체크</td>
 <td><code>/plugin install domain-search@haru-skills</code></td>
 <td><a href="https://github.com/bluei98/domain-search">bluei98/domain-search</a></td>

@@ -35,6 +35,20 @@
 
 ---
 
+## 更新
+
+当插件市场或插件有更新时，在 Claude Code 中拉取最新内容：
+
+```bash
+# 1. 刷新插件市场目录
+/plugin marketplace update haru-skills
+
+# 2. 重新加载已安装插件以应用更改
+/reload-plugins
+```
+
+---
+
 ## 插件列表
 
 <table>
@@ -48,7 +62,7 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="./plugins/domain-search"><code>domain-search</code></a></td>
+<td><code>domain-search</code></td>
 <td>品牌命名 + 基于 whois 的域名可用性检查</td>
 <td><code>/plugin install domain-search@haru-skills</code></td>
 <td><a href="https://github.com/bluei98/domain-search">bluei98/domain-search</a></td>

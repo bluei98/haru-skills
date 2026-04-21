@@ -35,6 +35,20 @@ Two lines in Claude Code and you're done.
 
 ---
 
+## Updating
+
+When the marketplace or a plugin gets updated, pull the latest inside Claude Code:
+
+```bash
+# 1. Refresh the marketplace catalog
+/plugin marketplace update haru-skills
+
+# 2. Reload installed plugins so changes take effect
+/reload-plugins
+```
+
+---
+
 ## Plugins
 
 <table>
@@ -48,7 +62,7 @@ Two lines in Claude Code and you're done.
 </thead>
 <tbody>
 <tr>
-<td><a href="./plugins/domain-search"><code>domain-search</code></a></td>
+<td><code>domain-search</code></td>
 <td>Brand naming + whois-based domain availability check</td>
 <td><code>/plugin install domain-search@haru-skills</code></td>
 <td><a href="https://github.com/bluei98/domain-search">bluei98/domain-search</a></td>

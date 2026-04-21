@@ -35,6 +35,20 @@ Claude Code で次の 2 行だけでインストール完了。
 
 ---
 
+## アップデート
+
+マーケットプレイスやプラグインが更新されたときは、Claude Code 内で最新版に同期してください。
+
+```bash
+# 1. マーケットプレイスのカタログを更新
+/plugin marketplace update haru-skills
+
+# 2. インストール済みプラグインを再読み込みして反映
+/reload-plugins
+```
+
+---
+
 ## プラグイン一覧
 
 <table>
@@ -48,7 +62,7 @@ Claude Code で次の 2 行だけでインストール完了。
 </thead>
 <tbody>
 <tr>
-<td><a href="./plugins/domain-search"><code>domain-search</code></a></td>
+<td><code>domain-search</code></td>
 <td>ブランドネーミング + whois によるドメイン利用可否チェック</td>
 <td><code>/plugin install domain-search@haru-skills</code></td>
 <td><a href="https://github.com/bluei98/domain-search">bluei98/domain-search</a></td>

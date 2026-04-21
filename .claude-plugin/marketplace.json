@@ -4,12 +4,12 @@
     "name": "bluei98",
     "url": "https://github.com/bluei98"
   },
-  "description": "bluei98 의 Claude Code 스킬/플러그인 마켓플레이스",
+  "description": "haru's Claude Code skills and plugins marketplace",
   "plugins": [
     {
       "name": "domain-search",
       "source": "./plugins/domain-search",
-      "description": "브랜드 네이밍 + whois 기반 도메인 가용성 체크",
+      "description": "Brand naming + whois-based domain availability check",
       "homepage": "https://github.com/bluei98/domain-search"
     }
   ]

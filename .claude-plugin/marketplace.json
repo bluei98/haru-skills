@@ -8,7 +8,10 @@
   "plugins": [
     {
       "name": "domain-search",
-      "source": "./plugins/domain-search",
+      "source": {
+        "source": "github",
+        "repo": "bluei98/domain-search"
+      },
       "description": "Brand naming + whois-based domain availability check",
       "homepage": "https://github.com/bluei98/domain-search"
     }
